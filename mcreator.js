@@ -1,14 +1,13 @@
 const http = require('http');
 const express = require("express");
 const app = express();
-app.get("/", (request, response) => {
-  console.log(Date.now() + " Ping Received");
-  response.sendStatus(200);
-});
-app.listen(process.env.PORT);
-setInterval(() => {
-  http.get(`http://mcreator-discord-bot.glitch.me/`);
-}, 280000);
+const port = 3000;
+
+app.get('/', (req, res) => res.send('I am MCreator Discord Bot!'));
+
+app.listen(port, () => console.log(`Pinged!`));
+
+
 
 const Discord = require('discord.js');
 
@@ -171,7 +170,7 @@ client.on('message', message => {
     client.commands.get('wiki').execute(message, args);
   }
   else {
-    client.command.get('invalid').execute(message, args);
+    client.commands.get('invalid').execute(message, args);
   }
 });
 
