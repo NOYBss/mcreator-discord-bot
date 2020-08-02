@@ -7,7 +7,7 @@ const embed = new Discord.MessageEmbed()
     .setThumbnail('https://media.discordapp.net/attachments/674675708374679603/738785529856000060/logo-mcreator.jpg')
     .setDescription(
       'Bot Name: MCreator Discord Bot\n' +
-      'Bot Version: 1.0.2\n' +
+      'Bot Version: process.env.VERSION\n' +
       'Bot Prefix: mc!\n' +
       '\n' +
       'Author: NOYB\n' +
