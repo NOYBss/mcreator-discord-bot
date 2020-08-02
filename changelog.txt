@@ -15,3 +15,6 @@ Added possibility to send diffrent pictures to potato command.
 
 v1.0.5
 Some commands didn't worked, so I fixed them.
+
+v1.0.6
+Nothing important.

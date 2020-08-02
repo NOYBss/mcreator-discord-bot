@@ -37,21 +37,44 @@ client.on('message', message => {
   const args = message.content.slice(prefix.length).split(/ +/);
   const command = args.shift().toLowerCase();
 
-  if(command === 'potato') {
-    var chance = (Math.floor(Math.random() * 5) + 1);
-      if(chance === 1) {
+  if(command === 'hi') {
+    if(message.author.id === process.env.AUTHOR) {
+      var hi = (Math.floor(Math.random() * 5) + 1);
+      if(hi === 1) {
+        message.channel.send('Hi Boss! Nice to see you around!');
+      }
+      if(hi === 2) {
+        message.channel.send('You are the best!');
+      }
+      if(hi === 3) {
+        message.channel.send('Sssh, my author is speaking.');
+      }
+      if(hi === 4) {
+        message.channel.send('Hi!');
+      }
+      if(hi === 5) {
+        message.channel.send('My creator! Let me serve you!');
+      }
+    }
+    else {
+      message.channel.send('Unimportant!');
+    }
+  }
+  else if(command === 'potato') {
+    var potato = (Math.floor(Math.random() * 5) + 1);
+      if(potato === 1) {
         message.channel.send('https://theoaksatsherwood.com/wp-content/uploads/2019/11/photo-1518977676601-b53f82aba655.jpg');
       }
-      if(chance === 2) {
+      if(potato === 2) {
         message.channel.send('https://www.veggieprezi.com/wp-content/uploads/2017/09/20170731_214129-555x688.jpg');
       }
-      if(chance === 3) {
+      if(potato === 3) {
         message.channel.send('https://lh3.googleusercontent.com/7YbwfqeaCBRC_iNUE9TcwBkhlsuCX6hsMY0Ch8Qncf2ivw6oEiJzQ8cDdZQ8Cm_RzHJQdhx-jh0vQppLtLP4Xe0=s400');
       }
-      if(chance === 4) {
+      if(potato === 4) {
         message.channel.send('https://pbs.twimg.com/profile_images/699110124909109248/SvVB_q_2_400x400.png');
       }
-      if(chance === 5) {
+      if(potato === 5) {
         message.channel.send('https://cdn.shopify.com/s/files/1/1190/6156/products/Some_Guy_On_A_Potato_grande.jpg?v=1588961985');
       }
   }
