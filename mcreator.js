@@ -38,7 +38,22 @@ client.on('message', message => {
   const command = args.shift().toLowerCase();
 
   if(command === 'potato') {
-    message.channel.send('https://theoaksatsherwood.com/wp-content/uploads/2019/11/photo-1518977676601-b53f82aba655.jpg');
+    var chance = (Math.floor(Math.random() * 5) + 1);
+      if(chance === 1) {
+        message.channel.send('https://theoaksatsherwood.com/wp-content/uploads/2019/11/photo-1518977676601-b53f82aba655.jpg');
+      }
+      if(chance === 2) {
+        message.channel.send('https://www.veggieprezi.com/wp-content/uploads/2017/09/20170731_214129-555x688.jpg');
+      }
+      if(chance === 3) {
+        message.channel.send('https://lh3.googleusercontent.com/7YbwfqeaCBRC_iNUE9TcwBkhlsuCX6hsMY0Ch8Qncf2ivw6oEiJzQ8cDdZQ8Cm_RzHJQdhx-jh0vQppLtLP4Xe0=s400');
+      }
+      if(chance === 4) {
+        message.channel.send('https://pbs.twimg.com/profile_images/699110124909109248/SvVB_q_2_400x400.png');
+      }
+      if(chance === 5) {
+        message.channel.send('https://cdn.shopify.com/s/files/1/1190/6156/products/Some_Guy_On_A_Potato_grande.jpg?v=1588961985');
+      }
   }
   else if(command === 'about') {
     client.commands.get('about').execute(message, args);
