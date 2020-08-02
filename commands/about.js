@@ -11,7 +11,9 @@ const embed = new Discord.MessageEmbed()
       'Bot Prefix: mc!\n' +
       '\n' +
       'Author: NOYB\n' +
-      'License: MIT (Not Open Source Yet)\n'
+      'License: MIT\n' +
+      '\n' +
+      'This Discord Bot is not a official MCreator/Pylo product,\nit does not have anything to do with MCreator or Pylo!\n'
     );
 
 module.exports = {

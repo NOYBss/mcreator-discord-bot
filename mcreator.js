@@ -16,7 +16,6 @@ const client = new Discord.Client();
 const fs = require('fs');
 
 const prefix = 'mc!';
-const token = 'NzM4Njc1OTMzODEyMjI4MDk3.XyPXkg.qa0JW8soyQ8wZ33N-E4aGyaYeBc';
 
 client.commands = new Discord.Collection();
 

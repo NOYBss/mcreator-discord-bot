@@ -9,9 +9,7 @@ const embed = new Discord.MessageEmbed()
       'mc!help - You are already here!\n' +
       'mc!elements - Shows a list of commands about MCreator mod elements.\n' +
       'mc!generators - Shows a list of commands about MCreator generators.\n' +
-      'mc!other - Shows a list of commands about other MCreator stuff.\n' +
-      '\n' +
-      'This Discord Bot is not a official MCreator/Pylo product,\nit does not have anything to do with MCreator or Pylo!\n'
+      'mc!other - Shows a list of commands about other MCreator stuff.\n'
       );
 
 module.exports = {
