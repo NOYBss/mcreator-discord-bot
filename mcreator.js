@@ -7,7 +7,7 @@ app.get('/', (req, res) => res.send('I am MCreator Discord Bot!'));
 
 app.listen(port, () => console.log(`Pinged!`));
 
-
+//Actual Bot Starts Here\\
 
 const Discord = require('discord.js');
 
