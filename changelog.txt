@@ -1,0 +1,14 @@
+v1.0.0
+Initial Release
+
+v1.0.1
+Added invalid command message.
+
+v1.0.2
+Added about command.
+
+v1.0.3
+Tweaked some stuff.
+
+v1.0.4
+Added possibility to send diffrent pictures to potato command.
