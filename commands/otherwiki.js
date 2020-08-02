@@ -8,8 +8,8 @@ const embed = new Discord.MessageEmbed()
     .setDescription('Cannot find what you are looking for? Go here!');
 
 module.exports = {
-    name: 'forums',
-    description: 'Forums command.',
+    name: 'wiki',
+    description: 'Wiki command.',
     execute(message, args){
         message.channel.send(embed);
     }

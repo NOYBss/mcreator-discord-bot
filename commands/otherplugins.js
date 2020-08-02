@@ -8,8 +8,8 @@ const embed = new Discord.MessageEmbed()
     .setDescription('There are many plugins for MCreator that you can use!');
 
 module.exports = {
-    name: 'forums',
-    description: 'Forums command.',
+    name: 'plugins',
+    description: 'Plugins command.',
     execute(message, args){
         message.channel.send(embed);
     }

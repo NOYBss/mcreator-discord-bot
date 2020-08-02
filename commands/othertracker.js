@@ -8,8 +8,8 @@ const embed = new Discord.MessageEmbed()
     .setDescription('Found a bug, or want a feature! Check out this page! Do not forgot to provide a log when you are opening a bug report!');
 
 module.exports = {
-    name: 'forums',
-    description: 'Forums command.',
+    name: 'tracker',
+    description: 'Tracker command.',
     execute(message, args){
         message.channel.send(embed);
     }
