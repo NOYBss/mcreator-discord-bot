@@ -8,7 +8,6 @@ const embed = new Discord.MessageEmbed()
     .setFooter(
       'Mod Elements\n' +
       'mc!achievement - How to Make an Advancement/Achievement\n' +
-      'mc!advancement - How to Make an Advancement/Achievement\n' +
       'mc!armor - How to Make a Armor\n' +
       'mc!biome - How to Make a Biome\n' +
       'mc!block - How to Make a Block\n' +

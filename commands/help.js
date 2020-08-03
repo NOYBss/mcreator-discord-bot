@@ -6,10 +6,11 @@ const embed = new Discord.MessageEmbed()
     .setColor(0xffffff)
     .setDescription('MCreator Bot Commands')
     .setFooter(
+      'mc!about - About this bot.\n' +
       'mc!help - You are already here!\n' +
-      'mc!elements - Shows a list of commands about MCreator mod elements.\n' +
-      'mc!generators - Shows a list of commands about MCreator generators.\n' +
-      'mc!other - Shows a list of commands about other MCreator stuff.\n'
+      'mc!elements - Learn more about mod elements.\n' +
+      'mc!generators - Check out community generators.\n' +
+      'mc!other - Other commands.\n'
       );
 
 module.exports = {

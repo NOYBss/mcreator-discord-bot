@@ -7,16 +7,16 @@ const embed = new Discord.MessageEmbed()
     .setDescription('MCreator Bot Commands - Generators')
     .setFooter(
       'Other Generators\n' +
-      'mc!datapack-1.13 - Go to 1.13.x Datapack Generator plugin page.\n' +
-      'mc!datapack-1.16 - Go to 1.16.x Datapack Generator plugin page.\n' +
-      'mc!fabric - Go to Fabric Generator plugin page.\n' +
-      'mc!forge-1.12 - Go to Forge 1.12.2 Generator plugin page.\n' +
-      'mc!spigot - Go to Spigot Generator plugin page.\n'
+      "mc!datapack-1.13 - Check out U1timateJ7's 1.13.x Data Pack Generator.\n" +
+      "mc!datapack-1.16 - Check out U1timateJ7's 1.13.x Data Pack Generator.\n" +
+      "mc!fabric - Check out Goldorions's Fabric Generator.\n" +
+      "mc!forge-1.12 - Check out Klemen's 1.12.2 Forge Generator.\n" +
+      "mc!spigot - Check out Goldorion's Spigot Plugin Generator.\n"
       );
 
 module.exports = {
     name: 'generators',
-    description: 'Help about MCreator Generators.',
+    description: 'About MCreator Generators.',
     execute(message, args){
         message.channel.send(embed);
     }

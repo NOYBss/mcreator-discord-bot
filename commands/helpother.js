@@ -10,10 +10,10 @@ const embed = new Discord.MessageEmbed()
       'mc!blockbench - Common BlockBench issues.\n' +
       'mc!donate - Donate to the MCreator developers.\n' +
       'mc!errors - Common Gradle and build errors.\n' +
-      'mc!forums - Go to MCreator Forums.\n' +
+      'mc!forums - Check out MCreator Forums!\n' +
       'mc!plugins - Explore MCreator Plugins!\n' +
       'mc!tracker - Go to MCreator Tracker.\n' +
-      'mc!wiki - Cannot find what you are looking for? Go here!\n'
+      'mc!wiki - Cannot find what you are looking for?\n'
       );
 
 module.exports = {

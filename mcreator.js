@@ -1,5 +1,5 @@
 const http = require('http');
-const express = require("express");
+const express = require('express');
 const app = express();
 const port = 3000;
 
@@ -26,7 +26,7 @@ for(const file of commandFiles){
 }
 
 client.once('ready', () => {
-  console.log('MCreator Bot is online!');
+  console.log('MCreator Bot is ready to serve!');
   client.user.setActivity('mc!help', { type: 'LISTENING' });
 });
 
@@ -37,6 +37,7 @@ client.on('message', message => {
   const args = message.content.slice(prefix.length).split(/ +/);
   const command = args.shift().toLowerCase();
 
+  //Check words after prefix.
   if(command === 'about') {
     client.commands.get('about').execute(message, args);
   }
@@ -53,9 +54,6 @@ client.on('message', message => {
     client.commands.get('other').execute(message, args);
   }
   else if(command === 'achievement') {
-    client.commands.get('achievement').execute(message, args);
-  }
-  else if(command === 'advancement') {
     client.commands.get('achievement').execute(message, args);
   }
   else if(command === 'armor') {
