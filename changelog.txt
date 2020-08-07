@@ -11,19 +11,10 @@ v1.0.3
 Tweaked some stuff.
 
 v1.0.4
-Added possibility to send diffrent pictures to potato command.
+Fixed some not working commands.
 
 v1.0.5
-Some commands didn't worked, so I fixed them.
-
-v1.0.6
-Nothing important.
-
-v1.0.7
-Removed the things added in 1.0.4 and 1.0.6 because they were irrelevant.
-
-v1.0.8
 Fixed something and added more info to some commands.
 
-v1.0.9
+v1.0.6
 Changed some command messages to give more info about things.

@@ -5,16 +5,12 @@ const embed = new Discord.MessageEmbed()
     .setURL('https://mcreator.net/')
     .setColor(0xffffff)
     .setThumbnail('https://media.discordapp.net/attachments/674675708374679603/738785529856000060/logo-mcreator.jpg')
-    .setDescription(
-      'Bot Name: MCreator Discord Bot\n' +
-      'Bot Version: ' + process.env.VERSION + '\n' +
-      'Bot Prefix: mc!\n' +
-      '\n' +
-      'Author: NOYB\n' +
-      'License: MIT\n' +
-      '\n' +
-      'This Discord Bot is not a official MCreator/Pylo product,\nit does not have anything to do with MCreator or Pylo!\n'
-    );
+    .addField('Author', 'NOYB')
+    .addField('License', '[MIT License](https://opensource.org/licenses/MIT)')
+    .addField('Issue Tracker', '[GitHub Issues](https://github.com/NOYBss/mcreator-discord-bot/issues)')
+    .addField('Source Code', '[GitHub Repository](https://github.com/NOYBss/mcreator-discord-bot)')
+    .addField('Disclaimer', 'This Discord Bot is not a official MCreator/Pylo product,\nit does not have anything to do with MCreator or Pylo!)
+    ;
 
 module.exports = {
     name: 'about',

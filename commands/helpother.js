@@ -7,10 +7,10 @@ const embed = new Discord.MessageEmbed()
     .setDescription('MCreator Bot Commands - Other')
     .setFooter(
       'Other\n' +
-      'mc!blockbench - BlockBench Things.\n' +
+      'mc!blockbench - About BlockBench.\n' +
       'mc!donate - Donate to the MCreator developers.\n' +
-      'mc!errors - Common Gradle and build errors.\n' +
       'mc!forums - Check out MCreator Forums!\n' +
+      'mc!issues - MCreator Troubleshooting\n' +
       'mc!plugins - Explore MCreator Plugins!\n' +
       'mc!tracker - Go to MCreator Tracker.\n' +
       'mc!wiki - Cannot find what you are looking for?\n'

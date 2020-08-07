@@ -1,4 +1,3 @@
-const http = require('http');
 const express = require('express');
 const app = express();
 const port = 3000;
@@ -38,10 +37,8 @@ client.on('message', message => {
   const command = args.shift().toLowerCase();
 
   //Check words after prefix.
-  if(command === 'test') {
-    if(message.author.id === process.env.AUTHOR) {
-      client.commands.get('test').execute(message, args);
-    }
+  if(command === 'test' || message.author.id === process.env.AUTHOR) {
+    client.commands.get('test').execute(message, args);
   }
   else if(command === 'about') {
     client.commands.get('about').execute(message, args);
@@ -154,11 +151,11 @@ client.on('message', message => {
   else if(command === 'donate') {
     client.commands.get('donate').execute(message, args);
   }
-  else if(command === 'errors') {
-    client.commands.get('errors').execute(message, args);
-  }
   else if(command === 'forums') {
     client.commands.get('forums').execute(message, args);
+  }
+  else if(command === 'issues') {
+    client.commands.get('issues').execute(message, args);
   }
   else if(command === 'plugins') {
     client.commands.get('plugins').execute(message, args);
