@@ -24,3 +24,6 @@ Removed the things added in 1.0.4 and 1.0.6 because they were irrelevant.
 
 v1.0.8
 Fixed something and added more info to some commands.
+
+v1.0.9
+Changed some command messages to give more info about things.
