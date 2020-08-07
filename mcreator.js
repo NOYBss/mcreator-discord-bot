@@ -37,8 +37,10 @@ client.on('message', message => {
   const command = args.shift().toLowerCase();
 
   //Check words after prefix.
-  if(command === 'test' || message.author.id === process.env.AUTHOR) {
-    client.commands.get('test').execute(message, args);
+  if(command === 'test') {
+    if(message.author.id === process.env.AUTHOR) {
+      client.commands.get('test').execute(message, args);
+    }
   }
   else if(command === 'about') {
     client.commands.get('about').execute(message, args);
