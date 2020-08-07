@@ -9,7 +9,7 @@ const embed = new Discord.MessageEmbed()
     .addField('License', '[MIT License](https://opensource.org/licenses/MIT)')
     .addField('Issue Tracker', '[GitHub Issues](https://github.com/NOYBss/mcreator-discord-bot/issues)')
     .addField('Source Code', '[GitHub Repository](https://github.com/NOYBss/mcreator-discord-bot)')
-    .addField('Disclaimer', 'This Discord Bot is not a official MCreator/Pylo product,\nit does not have anything to do with MCreator or Pylo!)
+    .addField('Disclaimer', 'This Discord Bot is not a official MCreator/Pylo product,\nit does not have anything to do with MCreator or Pylo!')
     ;
 
 module.exports = {
