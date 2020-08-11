@@ -159,6 +159,9 @@ client.on('message', message => {
   else if(command === 'issues') {
     client.commands.get('issues').execute(message, args);
   }
+  else if(command === 'newmc') {
+    client.commands.get('newmc').execute(message, args);
+  }
   else if(command === 'plugins') {
     client.commands.get('plugins').execute(message, args);
   }
