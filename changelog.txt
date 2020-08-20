@@ -18,3 +18,10 @@ Fixed something and added more info to some commands.
 
 v1.0.6
 Changed some command messages to give more info about things.
+
+v1.0.7
+Added newmc command.
+
+v1.0.8
+Added condition command.
+Improved wiki command.

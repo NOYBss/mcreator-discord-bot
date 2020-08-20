@@ -115,7 +115,11 @@ client.on('message', message => {
     client.commands.get('potion').execute(message, args);
   }
   else if(command === 'procedure') {
-    client.commands.get('procedure').execute(message, args);
+    if(args[0] === 'condition') {
+      client.commands.get('condition').execute(message, args);
+    } else {
+      client.commands.get('procedure').execute(message, args);
+    }
   }
   else if(command === 'rangeditem') {
     client.commands.get('rangeditem').execute(message, args);
@@ -169,7 +173,11 @@ client.on('message', message => {
     client.commands.get('tracker').execute(message, args);
   }
   else if(command === 'wiki') {
-    client.commands.get('wiki').execute(message, args);
+    if(!args.length) {
+      message.channel.send('https://mcreator.net/wiki')
+    } else {
+      message.channel.send('https://mcreator.net/wiki/' + args[0])
+    }
   }
   else {
     client.commands.get('invalid').execute(message, args);

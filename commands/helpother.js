@@ -14,7 +14,7 @@ const embed = new Discord.MessageEmbed()
       `mc!newmc - Info about new mc version support for MCreator.\n` +
       'mc!plugins - Explore MCreator Plugins!\n' +
       'mc!tracker - Go to MCreator Tracker.\n' +
-      'mc!wiki - Cannot find what you are looking for?\n'
+      'mc!wiki - If provided with a argument, bot will send a link according to the argument, else it will send MCreator wiki home page.\n'
       );
 
 module.exports = {

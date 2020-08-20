@@ -27,6 +27,7 @@ const embed = new Discord.MessageEmbed()
       'mc!plant - How to Make a Plant\n' +
       'mc!potion - How to Make a Potion\n' +
       'mc!procedure - Procedure System\n' +
+      'mc!procedure condition - How to Use Conditions\n' +
       'mc!rangeditem - How to Make a Ranged Item\n' +
       'mc!recipe - How to Make a Recipe\n' +
       'mc!structure - How to Make a Structure\n' +
