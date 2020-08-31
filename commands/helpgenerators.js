@@ -7,11 +7,10 @@ const embed = new Discord.MessageEmbed()
     .setDescription('MCreator Bot Commands - Generators')
     .setFooter(
       'Other Generators\n' +
-      "mc!datapack-1.13 - Check out U1timateJ7's 1.13.x Data Pack Generator.\n" +
-      "mc!datapack-1.16 - Check out U1timateJ7's 1.16.x Data Pack Generator.\n" +
-      "mc!fabric - Check out Goldorion's Fabric Generator.\n" +
-      "mc!forge-1.12 - Check out Klemen's 1.12.2 Forge Generator.\n" +
-      "mc!spigot - Check out Goldorion's Spigot Plugin Generator.\n"
+      "mc!datapack - 1.16.2 Data Pack Generator by Goldorion\n" +
+      "mc!fabric - 1.16.2 Fabric Generator by ClothCreators\n" +
+      "mc!forge <mc-version> - Provide a legacy generator version\n" +
+      "mc!spigot - 1.16.2 Spigot Generator by ClothCreators\n"
       );
 
 module.exports = {

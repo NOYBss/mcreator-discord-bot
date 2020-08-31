@@ -25,3 +25,11 @@ Added newmc command.
 v1.0.8
 Added condition command.
 Improved wiki command.
+ - Wiki command can now be provided with a argument.
+
+v1.0.9
+Added/Removed generators.
+Improved generator commands.
+ - Generators now have forum tpic fields.
+ - Generator command for forge is changed to use arguments.
+Some other tweaks.

@@ -115,11 +115,7 @@ client.on('message', message => {
     client.commands.get('potion').execute(message, args);
   }
   else if(command === 'procedure') {
-    if(args[0] === 'condition') {
-      client.commands.get('condition').execute(message, args);
-    } else {
       client.commands.get('procedure').execute(message, args);
-    }
   }
   else if(command === 'rangeditem') {
     client.commands.get('rangeditem').execute(message, args);
@@ -136,17 +132,14 @@ client.on('message', message => {
   else if(command === 'tool') {
     client.commands.get('tool').execute(message, args);
   }
-  else if(command === 'datapack-1.13') {
-    client.commands.get('datapack113').execute(message, args);
-  }
-  else if(command === 'datapack-1.16') {
-    client.commands.get('datapack116').execute(message, args);
+  else if(command === 'datapack') {
+    client.commands.get('datapack').execute(message, args);
   }
   else if(command === 'fabric') {
     client.commands.get('fabric').execute(message, args);
   }
-  else if(command === 'forge-1.12') {
-    client.commands.get('forge112').execute(message, args);
+  else if(command === 'forge') {
+    client.commands.get('forge').execute(message, args);
   }
   else if(command === 'spigot') {
     client.commands.get('spigot').execute(message, args);
