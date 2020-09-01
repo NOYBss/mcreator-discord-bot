@@ -8,9 +8,9 @@ const forge1122 = new Discord.MessageEmbed()
     .addField('Authors', 'Pylo, KlemenDEV')
     .addField('License', '[Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0)')
     .addField('Forum', '[MCreator Forum Topic](https://mcreator.net/forum/62695/generator-minecraft-1122-versions-20203)')
-    .addField('Issue Tracker', '[GitHub Issues](https://github.com/Pylo/MCreatorGenerator-Forge-1.12.2/issues)')
-    .addField('Releases', '[GitHub Releases](https://github.com/Pylo/MCreatorGenerator-Forge-1.12.2/releases)')
-    .addField('Source Code', '[GitHub Repository](https://github.com/Pylo/MCreatorGenerator-Forge-1.12.2)')
+    .addField('Issue Tracker', '[GitHub Issues](https://github.com/MCreator/Generator-Forge-1.12.2/issues)')
+    .addField('Releases', '[GitHub Releases](https://github.com/MCreator/Generator-Forge-1.12.2/releases)')
+    .addField('Source Code', '[GitHub Repository](https://github.com/MCreator/Generator-Forge-1.12.2)')
     ;
 
 module.exports = {
