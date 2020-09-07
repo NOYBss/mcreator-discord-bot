@@ -30,7 +30,7 @@ Improved wiki command.
 v1.0.9
 Added/Removed generators.
 Improved generator commands.
- - Generators now have forum tpic fields.
+ - Generators now have forum topic fields.
  - Generator command for forge is changed to use arguments.
 Some other tweaks.
 
