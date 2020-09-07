@@ -45,6 +45,9 @@ client.on('message', message => {
   else if(command === 'about') {
     client.commands.get('about').execute(message, args);
   }
+  else if(command === 'mcreator') {
+    client.commands.get('mcreator').execute(message, args);
+  }
   else if(command === 'help') {
     client.commands.get('help').execute(message, args);
   }
