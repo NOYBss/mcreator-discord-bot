@@ -34,6 +34,5 @@ Improved generator commands.
  - Generator command for forge is changed to use arguments.
 Some other tweaks.
 
-
 v1.0.10
 Added mcreator command
